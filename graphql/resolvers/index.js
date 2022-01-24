@@ -49,12 +49,41 @@ export const resolvers = {
                     documents.push(doc.data())
                 });
                 console.log(documents);
-                return documents.map(({ id, type, description }) => ({
+                return documents.map(({ id, type, imageUrl, isAvailable, description }) => ({
                     id,
                     type,
+                    imageUrl,
+                    isAvailable,
                     description
                 }));
 
+            } catch (error) {
+                throw error;
+            }
+        }
+    },
+    Mutation: {
+        createVehicle: async (parent, args) => {
+            try {
+                db.collection("vehicles").doc(args.input.id).set(args.input);
+                return { msg: "Record created successfully", createdRecord: args.input };
+            } catch (error) {
+                throw error;
+            }
+        },
+        updateVehicle: async (parent, args) => {
+            try {
+                db.collection("vehicles").doc(args.input.id).update(args.input);
+
+                return { msg: "Record updated successfully", updatedFields: args.input };
+            } catch (error) {
+                throw error;
+            }
+        },
+        deleteVehicle: async (parent, args) => {
+            try {
+                db.collection("vehicles").doc(args.id).delete();
+                return { msg: "Record deleted successfully" };
             } catch (error) {
                 throw error;
             }
