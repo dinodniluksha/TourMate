@@ -48,7 +48,7 @@ export const resolvers = {
                     console.log(doc.data());
                     documents.push(doc.data())
                 });
-                console.log(documents);
+                //console.log(documents);
                 return documents.map(({ id, type, imageUrl, isAvailable, description }) => ({
                     id,
                     type,
@@ -57,6 +57,21 @@ export const resolvers = {
                     description
                 }));
 
+            } catch (error) {
+                throw error;
+            }
+        },
+        vehicle: async (parent, args) => {
+            try {
+                const vehicle = await db.collection('vehicles').doc(args.id).get();
+                //console.log(vehicle.data());
+                return {
+                    id: vehicle.data().id,
+                    type: vehicle.data().type,
+                    imageUrl: vehicle.data().imageUrl,
+                    isAvailable: vehicle.data().isAvailable,
+                    description: vehicle.data().description,
+                };
             } catch (error) {
                 throw error;
             }
