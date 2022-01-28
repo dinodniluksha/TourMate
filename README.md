@@ -1,4 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TourMate-backend
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).  
+<br>
+
+## Support References 
+
+* ### Creating Next.js App with Graphql & Apollo Server
+
+    [Environment Setup](https://www.techomoro.com/how-to-install-and-setup-a-next-js-app-on-windows-10/)  
+    [Best Quick Start for Beginner Level](https://www.smashingmagazine.com/2020/10/graphql-server-next-javascript-api-routes)  
+    [Video Guide & Support](https://www.youtube.com/watch?v=RJpevpbC4YY)  
+    [Full Complete Guide](https://lyonwj.com/blog/graphql-server-next-js-neo4j-aura-vercel)  
+    [Setting Up Apollo in Next.js](https://www.youtube.com/watch?v=U86hn1HmuFU)  
+    [GraphQL Schema Basics](https://www.apollographql.com/docs/apollo-server/schema/schema/)  
+    [GraphQL Naming Conventions](https://docs.devland.is/technical-overview/api-design-guide/graphql-naming-conventions)  
+    [GraphQL Best Practices](https://atheros.ai/blog/graphql-best-practices-for-graphql-schema-design)  
+    [Quick Start for Mutation](https://www.howtographql.com/graphql-js/3-a-simple-mutation/)  
+    [Designing GraphQL Mutations](https://www.apollographql.com/blog/graphql/basics/designing-graphql-mutations/)  
+    [Mutations and Input Types](https://graphql.org/graphql-js/mutations-and-input-types/)  
+    [Mutations in GraphQL for Delete](https://dgraph.io/docs/graphql/mutations/delete/)
+
+* ### Handling Firestore Operations Inside Resolvers
+
+    [Link to Google](https://www.google.com)  
+    [Link to Google](https://www.google.com)  
+    [Link to Google](https://www.google.com)  
+    [Link to Google](https://www.google.com)  
+    [Link to Google](https://www.google.com)
+
+* ### Deploying Next.js App On Vercel
+
+    [Link to Google](https://www.google.com)  
+    [Link to Google](https://www.google.com)  
+    [Link to Google](https://www.google.com)  
+    [Link to Google](https://www.google.com)
+<br></br>
 
 ## Getting Started
 
