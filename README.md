@@ -22,18 +22,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 * ### Handling Firestore Operations Inside Resolvers
 
-    [Link to Google](https://www.google.com)  
-    [Link to Google](https://www.google.com)  
-    [Link to Google](https://www.google.com)  
-    [Link to Google](https://www.google.com)  
-    [Link to Google](https://www.google.com)
+    [GraphQL with Firestore](https://www.youtube.com/watch?v=8D9XnnjFGMs)  
+    [Nextjs-Firebase Setup](https://www.youtube.com/watch?v=bReCIxeWayw)  
+    [Adding a Firestore to Next.js in Secured Way](https://www.youtube.com/watch?v=AQ1ArQEw_Vw)  
+    [Firestore Data Write & Read](https://saveyourtime.medium.com/firebase-cloud-firestore-add-set-update-delete-get-data-6da566513b1b)  
+    [Firebase CRUD Tutorial](https://www.youtube.com/watch?v=qA9L3_cK9Z0)
 
 * ### Deploying Next.js App On Vercel
 
-    [Link to Google](https://www.google.com)  
-    [Link to Google](https://www.google.com)  
-    [Link to Google](https://www.google.com)  
-    [Link to Google](https://www.google.com)
+    [Official Document](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy)  
+    [Next.js Deployment Guide](https://www.techomoro.com/how-to-deploy-a-next-js-app-on-vercel-for-free/)  
+    [GraphQL Playground(Intro & Soluations for Server Unreachable Errors)](https://www.apollographql.com/docs/apollo-server/migration/)  
+    [CI/CD with Vercel](https://www.youtube.com/watch?v=gV9HUQTY03Q)
 <br></br>
 
 ## Getting Started
