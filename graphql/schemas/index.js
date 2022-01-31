@@ -12,7 +12,9 @@ export const typeDefs = gql`
         type: String
         imageUrl: String
         isAvailable: Boolean
+        charge: String
         description: String
+        isVisible: Boolean
     }
 
     input VehicleInput {
@@ -20,7 +22,9 @@ export const typeDefs = gql`
         type: String
         imageUrl: String
         isAvailable: Boolean
+        charge: String
         description: String
+        isVisible: Boolean
     }
 
     type CreatePayload {
