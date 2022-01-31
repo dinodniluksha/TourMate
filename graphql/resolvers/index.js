@@ -49,12 +49,14 @@ export const resolvers = {
                     documents.push(doc.data())
                 });
                 //console.log(documents);
-                return documents.map(({ id, type, imageUrl, isAvailable, description }) => ({
+                return documents.map(({ id, type, imageUrl, isAvailable, charge, description, isVisible }) => ({
                     id,
                     type,
                     imageUrl,
                     isAvailable,
-                    description
+                    charge,
+                    description,
+                    isVisible
                 }));
 
             } catch (error) {
@@ -70,7 +72,9 @@ export const resolvers = {
                     type: vehicle.data().type,
                     imageUrl: vehicle.data().imageUrl,
                     isAvailable: vehicle.data().isAvailable,
+                    charge: vehicle.data().charge,
                     description: vehicle.data().description,
+                    isVisible: vehicle.data().isVisible,
                 };
             } catch (error) {
                 throw error;
